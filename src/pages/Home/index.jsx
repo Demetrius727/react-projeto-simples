@@ -14,7 +14,7 @@ function Home() {
       inputRef.current.value = ''; 
     }
   }
-
+  
   function deleteProduct(id) {
     setProducts(products.filter(produto => produto.id != id))
   }
